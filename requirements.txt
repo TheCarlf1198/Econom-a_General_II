@@ -1,5 +1,4 @@
-import sympy as sp
-from sympy import symbols, Eq, solve, latex, expand
-import numpy as np
-import matplotlib.pyplot as plt
-import streamlit as st
+streamlit
+sympy
+numpy
+matplotlib
