@@ -283,6 +283,10 @@ st.latex(latex(eq_IS_LM_2))
 r_e_2 = solve(eq_IS_LM_2, r)[0]
 st.latex(latex(r_e_2))
 
+Y_e_2 = y_lm.subs(r, r_e_2)
+st.latex(latex(Y_e_2))
+
 Y_e_2 = y_is.subs(r, r_e_2)
 st.latex(latex(Y_e_2))
+
 
