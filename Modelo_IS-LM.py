@@ -286,7 +286,5 @@ st.latex(latex(r_e_2))
 Y_e_2 = y_lm.subs(r, r_e_2)
 st.latex(latex(Y_e_2))
 
-Y_e_2 = y_is.subs(r, r_e_2)
-st.latex(latex(Y_e_2))
 
 
